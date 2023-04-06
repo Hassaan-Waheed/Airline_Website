@@ -1,0 +1,55 @@
+body{
+    background-image: url("ross-parmly-rf6ywHVkrlY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 ul{
+    margin-top: 0px;
+    background-color: darkblue;
+    height: 50px;
+    width: auto;
+}
+
+.div1 a{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.div1 ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.div1 li:last-child{
+    float: right;
+    margin-right: 30px;
+    height: 10px;
+    padding: 15px;
+}
+
+.div1 li button{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 10px;
+}
+
+.div1 a:hover{
+    color: whitesmoke;
+}
+
+
+    
+    
+
+
+
+
