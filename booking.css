@@ -1,0 +1,178 @@
+body{
+    background-image: url("pictures/ross-parmly-rf6ywHVkrlY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+.div1 ul{
+    margin-top: 0px;
+    background-color: darkblue;
+    height: 50px;
+    width: 100%;
+}
+
+.div1 a{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.div1 ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.div1 li:last-child{
+    float: right;
+    margin-right: 30px;
+    height: 10px;
+    padding: 15px;
+}
+
+.div1 li button{
+    padding: 10px;
+    margin-right: 10px;
+    background-image: url(search.svg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+    
+}
+
+.div1 a:hover{
+    color: whitesmoke;
+}
+
+
+.div3{
+    margin: 50px;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 8px ;
+    width: 70%;
+    margin-left: 230px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin-top: 100px;
+
+}
+
+.div3 h1{
+    margin-left: 200px;
+    
+}
+
+
+.div3 input{
+    width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+    display:grid;
+    align-items: center;
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .form-column {
+    flex-basis: 48%;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+
+  div #payments label{
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 35px;
+    
+  }
+
+  .form-group input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 10px;
+
+  } 
+
+  .form-group #date{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 155px;
+    height: 10px;
+
+  } 
+
+
+  .form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 40px;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  input[type="radio"] {
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 20px;
+    /* transform: scale(0.1px);*/
+    transform: translateX(-30px);
+  }
+
+  .dropdown1{
+    height: 35px;
+    border-radius: 5px;
+    width: 46%;
+  }
+
+  .dropdown2{
+    height: 35px;
+    border-radius: 5px;
+    width: 46%;
+  }
+
+  .div3 span.error{
+    color: red;
+  }

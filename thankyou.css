@@ -1,0 +1,125 @@
+body{
+    background-image: url("pictures/ross-parmly-rf6ywHVkrlY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+.div1 ul{
+    margin-top: 0px;
+    background-color: darkblue;
+    height: 50px;
+    width: auto;
+}
+
+.div1 a{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.div1 ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.div1 li:last-child{
+    float: right;
+    margin-right: 30px;
+    height: 10px;
+    padding: 15px;
+}
+
+.div1 li button{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 10px;
+}
+
+.div1 a:hover{
+    color: whitesmoke;
+}
+
+.div2{
+    margin: 50px;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 8px ;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 350px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+
+.div3 {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+    margin-left: 270px;
+  }
+  
+  .tick {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #4CAF50;
+    border-bottom: 20px solid #4CAF50;
+    border-left: 20px solid transparent;
+    transform: translate(-50%, -50%) rotate(45deg);
+    animation: draw-tick 1s forwards;
+  }
+  
+  .message {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  @keyframes draw-tick {
+    0% {
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    50% {
+      width: 10px;
+      height: 20px;
+      opacity: 1;
+    }
+    100% {
+      width: 20px;
+      height: 70px;
+      opacity: 1;
+    }
+  }
+  

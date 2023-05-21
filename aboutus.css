@@ -1,0 +1,98 @@
+body{
+    background-image: url("pictures/ross-parmly-rf6ywHVkrlY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.div1 ul{
+    margin-top: 0px;
+    background-color: darkblue;
+    height: 50px;
+    width: 97%;
+}
+
+.div1 a{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.div1 ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-top: 6px;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+.div1 li:last-child{
+    float: right;
+    margin-right: 30px;
+    height: 10px;
+    padding: 15px;
+}
+
+.div1 li button{
+    padding: 10px;
+    margin-right: 10px;
+    background-image: url(search.svg);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+    
+}
+
+.div1 a:hover{
+    color: whitesmoke;
+}
+    
+.div2{
+    
+    background-color: skyblue;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div2 h1,h2,p{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.div2 p{
+    font-size: 20px;
+}
+
+.div2 h1{
+    text-align: center;
+}
+
+.div2 h2{
+    color: blue;
+    text-decoration: underline;
+}
+
+.div2 img{
+    width: 60%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}

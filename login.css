@@ -1,0 +1,115 @@
+body{
+    background-image: url("pictures/ross-parmly-rf6ywHVkrlY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+.div1 ul{
+    margin-top: 0px;
+    background-color: darkblue;
+    height: 50px;
+    width: auto;
+}
+
+.div1 a{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+.div1 ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 15px;
+    margin-left: 0px;
+    font-weight: 200;
+}
+
+
+.div1 li button{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    width: 10px;
+}
+
+.div1 a:hover{
+    color: whitesmoke;
+}
+
+.div2{
+    margin: 50px;
+    margin-top: 150px;
+    background-color: skyblue;
+    border-radius: 20px;
+    padding: 8px ;
+    width: 30%;
+    margin-left: 480px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    position: relative;
+
+}
+
+.div2 input {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+    width:60%;
+    
+}
+
+.div2 label{
+    margin-right: 20px;
+}
+
+.div2 input[type="password"]{
+    margin-left: 12px;
+}
+
+.forgot-password {
+    position: absolute;
+    top: calc(70% + 10px); /* Position it below the password field */
+    left: calc(55% - 100px);
+    width: 100%;
+    
+    font-size: 14px; /* Adjust font size as desired */
+}
+
+.div2 button{
+    width:65%;
+    align-items: center;
+    margin-left: 105px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color:black;
+    background-color: whitesmoke;
+    height: 30px;
+}
+
+.div2 button:hover{
+    color:whitesmoke;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.div2 span.error{
+    position: absolute;
+    color: red;
+    top: calc(64% + 1px); /* Position it below the password field */
+    left: calc(55% - 100px);
+}
